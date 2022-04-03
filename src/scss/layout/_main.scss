@@ -2,6 +2,19 @@
  * lay-out
  */
 
+.wrapper {
+  padding: 0 5%;
+  max-width: 1450px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.list--horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 // responsive
 
@@ -14,3 +27,33 @@
 /*
  * styling
  */
+
+.logo {
+  font-size: 20px;
+  margin: 10px 0 32px;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  z-index: 9000;
+  background: $dark;
+  color: #fff;
+  .nav {
+    text-align: center;
+    .list {
+      &__item {
+        margin-right: 30px;
+        transition: color 0.4s ease-out;
+        cursor: pointer;
+        &:hover, &.is-active {
+          color: $gold;
+        }
+      }
+    }
+  }
+}

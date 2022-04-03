@@ -2,7 +2,17 @@
 // Colors
 // =============================================
 
-$color: #dedee6;
+$dark: #0f0502;
+$gold: #c9a669;
+
 // =============================================
 // Typography
 // =============================================
+
+@font-face {
+    font-family: 'santral-regular';
+    src: url('dest/fonts/santral-regular.woff2') format('woff2'),
+         url('dest/fonts/santral-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
