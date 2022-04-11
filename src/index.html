@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#c0aee8">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<link rel="canonical" href="https://loveandhatred.com/" />
-  <link rel="manifest" href="assets/manifest.json">
+  <!-- <link rel="manifest" href="assets/manifest.json"> -->
 	<meta property="og:locale" content="en_EN" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Love and Hatred" />
@@ -18,12 +18,10 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:label1" content="Created by">
 	<meta name="twitter:data1" content="Love and Hatred">
-  <link rel="icon" type="image/png" href="assets/favicon/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="assets/favicon/favicon-16x16.png" sizes="16x16" />
   <title>Love &amp; Hatred</title>
   <meta name="description" content="Love and Hatred">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css?v2">
   <link rel="stylesheet" href="https://use.typekit.net/ldl7lwm.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 </head>
@@ -33,7 +31,7 @@
     <a href="#">Request an appointment</a>
   </div>
   <nav class="nav">
-    <h1 class="logo">Love &amp; Hatred</h1>
+    <img class="header__logo" src="assets/img/logo.svg" alt="Love and Hatred logo" title="Love and Hatred"/>
     <ul class="list list--horizontal">
       <li class="list__item">
         <a href="#">
@@ -62,13 +60,34 @@
       </li>
     </ul>
   </nav>
-  <div class="header__tools">
-
+  <div>
+    <a href="#">Request an appointment</a>
   </div>
 </header>
+<section class="section splash">
+  <div class="flexslider">
+    <ul class="slides">
+      <li>
+        <div class="slides__img js-load-slide" data-src="assets/img/slider.jpg">
+        </div>
+      </li>
+      <li>
+        <div class="slides__img js-load-slide" data-src="assets/img/slider.jpg">
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h1 class="splash__title">Love &amp; Hatred</h1>
+    <h2 class="splash__subtitle">Made to be treasured</h2>
+    <a href="#">Discover now</a>
+  </div>
+</section>
 <footer class="footer">
 </footer>
 <!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/flexslider.min.js"></script>
 <script src="assets/js/script.js?=v1"></script>
 </body>
 </html>

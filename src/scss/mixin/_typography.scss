@@ -4,14 +4,14 @@
 
 @mixin title-1 {
   margin: 0;
-  font-family: santral-regular, sans-serif;
+  font-family: santral-light, sans-serif;
   font-size: 95px;
   text-rendering: optimizeLegibility;
 }
 
 @mixin title-2 {
   margin: 0;
-  font-family: santral-regular, sans-serif;
+  font-family: santral-light, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -20,7 +20,7 @@
 @mixin title-3 {
   margin: 0;
   margin-bottom: 80px;
-  font-family: sans-serif;
+  font-family: santral-light, sans-serif;
   font-size: 70px;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -29,7 +29,7 @@
 @mixin title-4 {
   margin: 0;
   margin-bottom: 30px;
-  font-family: sans-serif;
+  font-family: santral-light, sans-serif;
   font-size: 45px;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -38,7 +38,7 @@
 @mixin title-5 {
   margin: 0;
   margin-bottom: 35px;
-  font-family: sans-serif;
+  font-family: santral-light, sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.5px;
