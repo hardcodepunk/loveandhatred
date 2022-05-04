@@ -10,6 +10,21 @@
   margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
 .list--horizontal {
   display: flex;
   flex-wrap: wrap;
@@ -44,6 +59,10 @@
          margin-right: 30px;
          transition: color 0.4s ease-out;
          cursor: pointer;
+         h2 {
+           font-family: santral-light, sans-serif;
+           font-size: 14px;
+         }
          &:hover, &.is-active {
            color: $gold;
          }
@@ -63,17 +82,33 @@
    color: #fff;
    text-align: center;
    display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: right;
+   align-items: flex-end;
+   padding: 0 5% 10% 0;
+
+   .splash__title {
+     margin-bottom: 40px;
+   }
    .splash__title, .splash__subtitle {
      position: relative;
      z-index: 40;
    }
  }
 
+
+.metal-feature {
+  overflow: hidden;
+}
 /*
  * styling
  */
+
+ .cta {
+   text-decoration: underline;
+   z-index: 9000;
+   text-transform: uppercase;
+   position: relative;
+ }
 
  /*
  flexslider

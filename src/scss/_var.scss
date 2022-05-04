@@ -10,6 +10,14 @@ $gold: #c9a669;
 // =============================================
 
 @font-face {
+    font-family: 'playfairdisplay-regular';
+    src: url('../fonts/playfairdisplay-regular.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'santral-regular';
     src: url('../fonts/santral-regular.woff2') format('woff2'),
          url('../fonts/santral-regular.woff') format('woff');
